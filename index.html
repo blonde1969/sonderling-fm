@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sonderling FM</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+
+<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="assets/css/jquerymobile.nativedroid.css" />
+<link rel="stylesheet" href="assets/css/jquerymobile.nativedroid.dark.css" id='jQMnDTheme' />
+<link rel="stylesheet" href="assets/css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+<link rel="stylesheet" href="assets/css/jqm-demos.css">
+<link rel="stylesheet" href="listview-grid.css">
+
+<script src="js/jquery.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+<div data-role="page" class="jqm-demos jqm-home my-page" data-theme="b">
+
+        <div data-role="header" class="jqm-header" data-theme="a">
+                <h2><img src="assets/img/jquery-logo.png" alt="Sonderling FM"></h2>
+                <a href="#nav-panel" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+        </div><!-- /header -->
+
+<div style="float:right; background:#000000; width:100%"><a href="index.html" data-ajax="false"><img style="padding-right:5px; padding-left:0.5em" src="assets/img/de.png"></a><img style="padding-right:5px" src="assets/img/gb.png"></div>
+<img src="assets/img/screen_fm.jpg" class="imgsub" alt="Oktoberfest TV">
+<audio class="player" src="http://streamplus7.leonex.de:10990" controls>Der Browser unterstützt dieses Audio-Element nicht.</audio>
+
+<div role="main" class=" ui-content">
+
+
+       <ul data-role="listview" id="my-page" data-inset="true">
+            <li><a href="pages_en/breaks.html" data-ajax="false">
+                <img src="assets/img/pix_breaks.jpg" class="ui-li-thumb">
+                <h2>Beatbreaker</h2>
+                <p>Big Beat, Breaks, Industrial, Nu Skool and Drum´n Bass ...</p>
+                <p class="ui-li-aside">Broken Beat</p>
+            </a></li>
+            <li><a href="pages_en/jazz.html" data-ajax="false">
+                <img src="assets/img/pix_jazz.jpg"  class="ui-li-thumb">
+                <h2>Time to groove</h2>
+                <p>The perfect Mix of Soul, Funk, Hip Hop and Jazz ...</p>
+                <p class="ui-li-aside">Acid Jazz</p>
+            </a></li>
+            <li><a href="pages_en/oldskool.html" data-ajax="false">
+                <img src="assets/img/pix_oldskool.jpg" class="ui-li-thumb">
+                <h2>Old Skool Baby!</h2>
+                <p>Best of Old Skool Hip Hop. Listen to the golden age ...</p>
+                <p class="ui-li-aside">Hip Hop</p>
+            </a></li>
+            <li><a href="pages_en/rock.html" data-ajax="false">
+                <img src="assets/img/pix_rock.jpg" class="ui-li-thumb">
+                <h2>Legandary & Classic</h2>
+                <p>Proudly bringing the best of classic rock to the people ...</p>
+                <p class="ui-li-aside">Rock</p>
+            </a></li>
+            <li><a href="pages_en/crossover.html" data-ajax="false">
+                <img src="assets/img/pix_crossover.jpg" class="ui-li-thumb">
+                <h2>Crossing all over</h2>
+                <p>Memorable times with bands like Nirvana and Faith no more ...</p>
+                <p class="ui-li-aside">Crossover</p>
+            </a></li>
+            <li><a href="pages_en/wave.html" data-ajax="false">
+                <img src="assets/img/pix_wave.jpg" class="ui-li-thumb">
+                <h2>80´s & New Wave</h2>
+                <p>The 80s - rock, pop, danceable and particularly groundbreaking ... </p>
+                <p class="ui-li-aside">80er</p>
+            </a></li>
+            <li><a href="pages_en/eweek.html" data-ajax="false">
+                <img src="assets/img/pix_eweek.jpg" class="ui-li-thumb">
+                <h2>Atomic Week</h2>
+                <p>Progressive, Tech - und Deep House Music for the week ...</p>
+                <p class="ui-li-aside">Electronic</p>
+            </a></li>
+            <li><a href="pages_en/ragga.html" data-ajax="false">
+                 <img src="assets/img/pix_ragga.jpg" class="ui-li-thumb">
+                <h2>Dancehall Days</h2>
+                <p>Flow away with Reggae, Raggamuffin and Dancehall ...</p>
+                <p class="ui-li-aside">Dancehall</p>
+            </a></li>
+            <li><a href="pages_en/mix.html" data-ajax="false">
+                 <img src="assets/img/pix_mix.jpg" class="ui-li-thumb">
+                <h2>Mix of the Day</h2>
+                <p>DJ's from all over the world present you timeless sets ...</p>
+                <p class="ui-li-aside">DJ-Sets</p>
+            </a></li>
+            <li><a href="pages_en/train.html" data-ajax="false">
+                 <img src="assets/img/pix_train.jpg" class="ui-li-thumb">
+                <h2>Morning Train</h2>
+                <p>Chilly beats and stimulants selected from various genres ...</p>
+                <p class="ui-li-aside">Wake up</p>
+            </a></li>
+            <li><a href="pages_en/wiesn.html" data-ajax="false">
+                 <img src="assets/img/pix_wiesn.jpg" class="ui-li-thumb">
+                <h2>Oktoberfest Munich</h2>
+                <p>Legendary and current hits on this year's Oktoberfest ...</p>
+                <p class="ui-li-aside">Wiesn</p>
+            </a></li>
+            <li><a href="pages_en/sets.html" data-ajax="false">
+                 <img src="assets/img/pix_set.jpg" class="ui-li-thumb">
+                <h2>Sonderling DJ Sets</h2>
+                <p>Here you can find our latest DJ sets and current productions ...</p>
+                <p class="ui-li-aside">DJ-Sets</p>
+            </a></li>
+        </ul>
+
+
+</div><!-- /content -->
+
+<div data-role="panel" id="nav-panel" data-position="left" data-display="overlay" data-theme="a">
+            <ul class="jqm-list ui-alt-icon ui-nodisc-icon" data-role="listview">
+                        <li data-icon='false'><a href="gmaps/map2.html" data-ajax="false"><i class='lIcon fa fa-map-marker'></i>Networking</a></li>
+                        <li data-icon='false'><a href="pages_en/sets.html" data-ajax="false"><i class='lIcon fa fa-info'></i>Sonderling DJ Sets</a></li>
+                        <li data-icon='false'><a href="pages_en/team.html" data-ajax="false"><i class='lIcon fa fa-bolt'></i>Team</a></li>
+                        <li data-icon='false'><a href="pages_en/programm.html" data-ajax="false"><i class='lIcon fa fa-sliders'></i>Programm</a></li>
+                </ul>
+        </div><!-- /panel -->
+
+<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-theme='b'>
+    <div data-role="navbar">
+        <ul>
+            <li><a href="pages_en/team.html" data-ajax="false"><i class="blIcon fa fa-bolt"></i>Team</a></li>
+            <li><a href="gmaps/map2.html" data-ajax="false"><i class="blIcon fa fa-map-marker"></i>Network</a></li>
+            <li><a href="pages_en/programm.html"><i class="blIcon fa fa-sliders"></i>Programm</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div><!-- /footer -->
+
+
+</div><!-- /page -->
+
+</body>
+</html>
